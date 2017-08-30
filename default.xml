@@ -4,7 +4,6 @@
   <default remote="caf" revision="LA.UM.6.4.r1"/>
     <copyfile dest="build.sh" src="build.sh"/>
     <copyfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
-  </project>
   <project name="device/qcom/sepolicy" revision="444cc8bedd9a4b9506aa631123823086d0787dfd" upstream="sepolicy.lnx.2.9.r2-rel"/>
   <project name="device/sample" revision="8b55985d7f110c5639b0917dc71cbf58aacf8c24" upstream="android-framework.lnx.2.9.1.r2-rel"/>
   <project name="platform/art" path="art" revision="2dabdfa28918481ab9b0ca7b4f19b694fbf9368a" upstream="android-framework.lnx.2.9.1.r2-rel"/>
